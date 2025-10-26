@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">your-api-domain.com</domain>
+        <!-- Commented out pin for now to allow release build -->
+        <!-- <pin-set>
+            <pin digest="SHA-256">your-certificate-pin</pin>
+        </pin-set> -->
+    </domain-config>
+</network-security-config>
