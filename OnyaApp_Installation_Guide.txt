@@ -1,0 +1,51 @@
+ONYA APP - INSTALLATION GUIDE
+================================
+
+ðŸ“± APP INFORMATION:
+- App Name: Onya App
+- Package: com.onya.app
+- Version: 1.0
+- File Size: ~31 MB
+- Minimum Android: 7.0 (Android 7.0+)
+- Target Android: 15 (Android 15)
+
+ðŸ”§ INSTALLATION METHODS:
+
+METHOD 1: Direct Installation (Recommended)
+-------------------------------------------
+1. Enable "Install from Unknown Sources":
+   - Android 8.0+: Settings â†’ Apps & notifications â†’ Special app access â†’ Install unknown apps â†’ Select your file manager â†’ Enable
+   - Older Android: Settings â†’ Security â†’ Unknown sources â†’ Enable
+
+2. Download the APK file to your phone
+3. Open file manager and navigate to Downloads
+4. Tap the APK file
+5. Tap "Install"
+6. Grant permissions when prompted
+7. Tap "Open" after installation
+
+METHOD 2: ADB Installation (For Developers)
+--------------------------------------------
+1. Connect phone to computer via USB
+2. Enable USB Debugging in Developer Options
+3. Run command: adb install app-debug.apk
+
+âš ï¸ IMPORTANT NOTES:
+- Make sure you have at least 2GB free storage space
+- Grant all requested permissions for full functionality
+- If installation fails, try restarting your device first
+- The app requires Android 7.0 or higher
+
+ðŸ” PERMISSIONS REQUIRED:
+- Internet access (for content streaming)
+- Location (for country code auto-fill)
+- SMS (for OTP verification)
+- Storage (for downloads and screenshots)
+
+ðŸ“ž SUPPORT:
+If you encounter any issues, contact the developer with:
+- Your Android version
+- Device model
+- Error message (if any)
+
+Enjoy using Onya App! ðŸŽ‰
